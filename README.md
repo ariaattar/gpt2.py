@@ -12,4 +12,14 @@ A PyTorch implementation of GPT-2 with Flash Attention support. This implementat
 ## Requirements
 - PyTorch
 - safetensors
-- numpy
+- CUDA-capable GPU (for Flash Attention)
+
+## Dataset
+To download the training dataset (TinyShakespeare), run:
+```bash
+wget https://raw.githubusercontent.com/karpathy/char-rnn/master/data/tinyshakespeare/input.txt                            
+```
+
+## References
+This implementation is inspired by Andrej Karpathy's [nanoGPT](https://github.com/karpathy/nanoGPT), a minimal implementation of GPT-2 in PyTorch.
+
