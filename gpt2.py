@@ -297,8 +297,7 @@ def main(
     dropout=0.0,
     num_epochs=3,
     max_steps=100,
-    use_checkpoint=True,
-    optimizer_type='adam',
+    use_checkpoint=False,
     attention_type = 'flash_attn',
     seed=42
 ):
